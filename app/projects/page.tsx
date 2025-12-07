@@ -17,7 +17,7 @@ export default function ProjectsPage() {
             <h2 className="text-xl font-semibold">{project.title}</h2>
             <p className="mt-2 text-sm text-slate-700">{project.description}</p>
             <p className="mt-3 text-xs font-medium uppercase text-slate-500">
-              Tech: {project.tech.join(" • ")}
+              Techstack: {project.tech.join(" • ")}
             </p>
           </article>
         ))}
